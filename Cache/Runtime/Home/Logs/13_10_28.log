@@ -1,0 +1,8 @@
+[ 2013-10-28T15:38:45+08:00 ] 0.0.0.0 /php/index.php/Base/verify_code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001746s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001865s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+

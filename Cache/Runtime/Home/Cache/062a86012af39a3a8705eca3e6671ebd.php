@@ -1,0 +1,108 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>安全知识竞赛试卷</title>
+<META NAME="DESCRIPTION" CONTENT="蚁群工作室是四川理工学院大学生网络技术协会下属的一个专门对外商业化的网站制作团队，其服务宗旨是：提供交流学习平台，提升队员WEB开发技术。以人为本,以技术为魂,以社会为舞台,以竞争为动力.网络------网聚人的力量">
+<META NAME="keywords" CONTENT="大学生网络技术协会, 网协, 蚁群工作室, 四川理工学院,新闻">
+<link href="__ROOT____CSS__style.css" rel="stylesheet" type="text/css" />
+
+<script>
+document.onkeydown = function()
+{
+/*
+(ctrlKey == true && keyCode == 82)    Ctrl+R    ---刷新
+(keyCode == 116)                      F5        ---刷新
+(ctrlKey == true && keyCode == 116) Ctrl+F5 ---强制刷新
+*/
+    //window.alert(event.keyCode);
+    var k = event.keyCode;
+    if((event.ctrlKey == true && k == 82) || (k == 116) || (event.ctrlKey == true && k == 116))
+     {
+        //return (window.confirm("关闭?"));
+        alert('不能刷新');
+         event.keyCode = 0;
+         event.returnValue = false;
+         event.cancelBubble = true;
+     }
+}
+</script>
+</head>
+
+<body>
+<div id="box">
+    <div class="survey">
+        <div id="ctl00_ContentPlaceHolder1_JQ1_question" class="surveycontent">
+            <div id="ctl00_ContentPlaceHolder1_JQ1_surveyContent">
+            	<form action="" method="post" onsubmit="return Check()">
+                    <div class="div_title_page_question">
+                        <div style="text-align:center;">
+                            <span style="line-height:1.5;"><b>安全知识竞赛试卷</b></span>
+                        </div>
+                        亲爱的<span style="color:red"><?php echo ($_SESSION['stu']['name']); ?></span>同学：
+                        <br>
+                        欢迎参加安全知识竞赛测试，本次答题时间为50分钟，满分为100分。
+                        <div>
+<SCRIPT LANGUAGE="JavaScript"> 
+<!-- 
+var maxtime; 
+if(window.name==''){  
+maxtime = 50 *60; 
+}else{ 
+maxtime = window.name; 
+} 
+function CountDown(){ 
+if(maxtime>=0){ 
+minutes = Math.floor(maxtime/60); 
+seconds = Math.floor(maxtime%60); 
+msg = "距离考试结束还有"+minutes+"分"+seconds+"秒"; 
+document.all["timer"].innerHTML = msg; 
+if(maxtime == 5*60) alert('注意，还有5分钟!'); 
+--maxtime; 
+window.name = maxtime;  
+} 
+else{ 
+clearInterval(timer); 
+alert("考试时间到，结束! 请提交答卷！"); 
+} 
+} 
+timer = setInterval("CountDown()",1000); 
+//-->
+</SCRIPT>
+<div id="timer" style="color:red">  </div>  </div>
+                    </div>
+                    
+            </div>
+            <div style="margin-top: 6px;clear:both;" id="submit_div">
+                <table id="submit_table" style="margin: 20px auto;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="submit" class="submitbutton" value="提交答卷" id="submit_button" >
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+			</form>
+
+         </div>
+
+    </div>
+
+</div>
+<div class="login_copyright" style="text-align:center;">
+  <span><a href="http://wlxh.suse.edu.cn/" target=_blank >大学生网络技术协会</a> <a href="http://www.yekezhong.com/" target=_blank >叶科忠</a> <span>技术支持</span></span>
+</div>
+</body>
+<script>
+function Check(){
+var checked=false;
+var ti = document.getElementsByClassName('div_question');
+for (var i = 0; i < ti.length; i++) {
+    checked=checked||ti[i].checked;if (!checked) {alert("还有未填写的题");return false} checked = false;
+}
+}
+</script>
+</html>

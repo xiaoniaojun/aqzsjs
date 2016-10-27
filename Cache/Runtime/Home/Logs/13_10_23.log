@@ -1,0 +1,24 @@
+[ 2013-10-23T09:23:18+08:00 ] 0.0.0.0 /php/index.php/Base/verify_code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001064s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+
+[ 2013-10-23T16:33:45+08:00 ] 0.0.0.0 /php/index.php/Base/verify_code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000994s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+
+[ 2013-10-23T21:10:58+08:00 ] 0.0.0.0 /php/index.php/Base/verify_code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001523s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+

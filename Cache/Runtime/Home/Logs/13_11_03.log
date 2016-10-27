@@ -1,0 +1,410 @@
+[ 2013-11-03T13:14:35+08:00 ] 0.0.0.0 /aqzsjs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002052s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with that of Action::error() D:\phpStudy\WWW\aqzsjs\Home\Lib\Action\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001493s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001567s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\aqzsjs\Cache\Runtime\Home\Cache\7e4848229090366086cc7eeb3bfc0798.php 第 97 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012144s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000954s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000961s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000820s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003821s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001304s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2013-11-03T13:15:03+08:00 ] 0.0.0.0 /aqzsjs/index.php/Base/verify_code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001339s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+
+[ 2013-11-03T13:19:27+08:00 ] 0.0.0.0 /aqzsjs/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with that of Action::error() D:\phpStudy\WWW\aqzsjs\Home\Lib\Action\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001542s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001646s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\aqzsjs\Cache\Runtime\Home\Cache\7e4848229090366086cc7eeb3bfc0798.php 第 97 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013087s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001057s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001078s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000864s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004463s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000832s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2013-11-03T13:20:54+08:00 ] 0.0.0.0 /aqzsjs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000845s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with that of Action::error() D:\phpStudy\WWW\aqzsjs\Home\Lib\Action\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001282s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001395s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\aqzsjs\Cache\Runtime\Home\Cache\7e4848229090366086cc7eeb3bfc0798.php 第 97 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.006970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007045s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000768s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000619s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000455s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002601s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000700s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2013-11-03T13:20:59+08:00 ] 0.0.0.0 /aqzsjs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000880s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with that of Action::error() D:\phpStudy\WWW\aqzsjs\Home\Lib\Action\IndexAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `aq_member` [ RunTime:0.003055s ]
+SQL: SELECT * FROM `aq_member` WHERE ( school_ID=10121040108 ) LIMIT 1   [ RunTime:0.000561s ]
+
+[ 2013-11-03T13:20:59+08:00 ] 0.0.0.0 /aqzsjs/index.php/Index/info
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with that of Action::error() D:\phpStudy\WWW\aqzsjs\Home\Lib\Action\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000809s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000868s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007837s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000530s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000468s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000354s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001993s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000562s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2013-11-03T13:21:01+08:00 ] 0.0.0.0 /aqzsjs/index.php/Index/run.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000783s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with that of Action::error() D:\phpStudy\WWW\aqzsjs\Home\Lib\Action\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000705s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000771s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.584165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.584256s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001293s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001011s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000460s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003668s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000630s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2013-11-03T16:19:12+08:00 ] 0.0.0.0 /aqzsjs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with that of Action::error() D:\phpStudy\WWW\aqzsjs\Home\Lib\Action\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000953s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\aqzsjs\Cache\Runtime\Home\Cache\7e4848229090366086cc7eeb3bfc0798.php 第 97 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.006796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006856s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000633s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000562s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000478s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002414s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000730s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2013-11-03T16:19:15+08:00 ] 0.0.0.0 /aqzsjs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001494s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with that of Action::error() D:\phpStudy\WWW\aqzsjs\Home\Lib\Action\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001466s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001569s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\aqzsjs\Cache\Runtime\Home\Cache\7e4848229090366086cc7eeb3bfc0798.php 第 97 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008209s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000565s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000585s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000407s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002297s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000652s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2013-11-03T16:19:16+08:00 ] 0.0.0.0 /aqzsjs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001399s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with that of Action::error() D:\phpStudy\WWW\aqzsjs\Home\Lib\Action\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001426s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001526s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\aqzsjs\Cache\Runtime\Home\Cache\7e4848229090366086cc7eeb3bfc0798.php 第 97 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010015s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000875s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000722s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000517s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002975s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000741s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2013-11-03T16:19:16+08:00 ] 0.0.0.0 /aqzsjs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001730s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001867s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with that of Action::error() D:\phpStudy\WWW\aqzsjs\Home\Lib\Action\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001572s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001654s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\aqzsjs\Cache\Runtime\Home\Cache\7e4848229090366086cc7eeb3bfc0798.php 第 97 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.006681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006742s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000566s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000614s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000440s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002417s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000698s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2013-11-03T16:19:17+08:00 ] 0.0.0.0 /aqzsjs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001656s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001826s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with that of Action::error() D:\phpStudy\WWW\aqzsjs\Home\Lib\Action\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001456s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001562s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\aqzsjs\Cache\Runtime\Home\Cache\7e4848229090366086cc7eeb3bfc0798.php 第 97 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012968s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000527s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000519s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000381s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002104s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000592s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2013-11-03T16:20:03+08:00 ] 0.0.0.0 /aqzsjs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001574s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001696s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with that of Action::error() D:\phpStudy\WWW\aqzsjs\Home\Lib\Action\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001477s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001596s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\aqzsjs\Cache\Runtime\Home\Cache\7e4848229090366086cc7eeb3bfc0798.php 第 97 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009403s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000552s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000557s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000430s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002245s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000686s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2013-11-03T16:20:04+08:00 ] 0.0.0.0 /aqzsjs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001319s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with that of Action::error() D:\phpStudy\WWW\aqzsjs\Home\Lib\Action\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001201s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001299s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\aqzsjs\Cache\Runtime\Home\Cache\7e4848229090366086cc7eeb3bfc0798.php 第 97 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010451s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000673s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000759s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000630s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003184s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000575s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2013-11-03T16:20:24+08:00 ] 0.0.0.0 /aqzsjs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001011s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with that of Action::error() D:\phpStudy\WWW\aqzsjs\Home\Lib\Action\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001226s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001346s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\aqzsjs\Cache\Runtime\Home\Cache\7e4848229090366086cc7eeb3bfc0798.php 第 97 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010800s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000594s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000672s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000398s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002768s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001070s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001161s ]
+
+[ 2013-11-03T16:20:24+08:00 ] 0.0.0.0 /aqzsjs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001564s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001690s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with that of Action::error() D:\phpStudy\WWW\aqzsjs\Home\Lib\Action\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001410s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001516s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\aqzsjs\Cache\Runtime\Home\Cache\7e4848229090366086cc7eeb3bfc0798.php 第 97 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010085s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000502s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000494s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000407s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002165s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000724s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2013-11-03T23:12:29+08:00 ] 0.0.0.0 /aqzsjs/index.php/Base/verify_code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001962s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002138s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+
+[ 2013-11-03T23:12:41+08:00 ] 0.0.0.0 /aqzsjs/index.php/Base/verify_code?rand=0.9445117441937327
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001487s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001672s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+
+[ 2013-11-03T23:12:48+08:00 ] 0.0.0.0 /aqzsjs/index.php/Base/verify_code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001334s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+
+[ 2013-11-03T23:13:15+08:00 ] 0.0.0.0 /aqzsjs/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with that of Action::error() D:\phpStudy\WWW\aqzsjs\Home\Lib\Action\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001502s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001607s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\aqzsjs\Cache\Runtime\Home\Cache\7e4848229090366086cc7eeb3bfc0798.php 第 97 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009478s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000553s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000544s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000338s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002105s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000599s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000649s ]
+

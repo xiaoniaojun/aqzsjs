@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>学生管理-后台管理首页-{$site.SITE_INFO.name}</title>
+        <php>
+            $addCss="";
+            $addJs="";
+            $currentNav ='学生管理 > 学生列表';
+        </php>
+        <include file="Common:intoHead" />
+    </head>
+    <body>
+        <div class="wrap">
+            <include file="Common:head" />
+            <div class="mainBody">
+                <include file="Common:left" />
+                <div id="Right">
+                    <div class="Item hr">
+                        <div class="current">学生管理</div>
+                    </div>
+<tr>
+  <th colspan="14" class="title">参与情况 | <span style="color:red;">共<{$count}>人，<{$countOk}>人已填写，参与率 : <{$countOkPer}>%</span></th>
+</tr>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
+                        <thead>
+                            <tr>
+                                <td align="center">学号</td>
+                                <td align="center">姓名</td>
+                                <td align="center">校区</td>
+                                <td align="center">学院</td>
+                                <td align="center">专业</td>
+                                <td align="center">分数</td>
+                            </tr>
+                        </thead>
+                        <volist name="list" id="vo">
+                            <tr align="center" aid="{$vo.Member}">
+                                <td>{$vo.school_ID}</td>
+                                <td>{$vo.name}</td>
+                                <td>{$vo.campus}</td>
+                                <td>{$vo.college}</td>
+                                <td>{$vo.specialty}</td>
+                                <td>{$vo.fraction}</td>
+                            </tr>
+                        </volist>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <include file="Common:foot" />
+    </body>
+</html>
